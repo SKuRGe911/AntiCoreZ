@@ -8,8 +8,8 @@ BUILD_DIR						=	build
 TOOLCHAIN_PREFIX				=	riscv64-unknown-elf-
 #TOOLCHAIN_PREFIX				=	riscv-none-embed-
 
-GERANIUMLIB						=	../geranium.a
-GERANIUMLINKSCRIPT				=	../geranium.lds
+GERANIUMLIB						=	../gcclib/geranium.a
+GERANIUMLINKSCRIPT				=	../gcclib/geranium.lds
 
 GCC								=	$(TOOLCHAIN_PREFIX)gcc
 GPP								=	$(TOOLCHAIN_PREFIX)g++
