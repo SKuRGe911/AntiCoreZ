@@ -8,4 +8,7 @@ in /media/fat/games/ACoreZ/ put the disk image and the boot rom in it.
 
 I will make a library which you can link to for programming stuff and a Template visual studio solution so you have somewhere to start.
 
+You will need the risc V tool chain to compile programs.
+Get it here https://gnutoolchains.com/risc-v/
+
 Remember this is a work in progress :)
